@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Bourbon",
+    "bean_size": "AVERAGE",
+    "quality_potential": "VERY_GOOD",
+    "yield": "MEDIUM",
+    "disease_resistancy": [
+      {
+        "leaf_rust": "SUSCEPTIBLE"
+      },
+      {
+        "coffee_berry_disease": "SUSCEPTIBLE"
+      },
+      {
+        "nematodes": "SUSCEPTIBLE"
+      }
+    ],
+    "producing_countries": [
+      "Burundi",
+      "Colombia",
+      "Costa Rica",
+      "Ethiopia",
+      "Honduras",
+      "Indonesia",
+      "Mexico",
+      "Panama",
+      "Papua New Guinea",
+      "Rwanda",
+      "Tanzania",
+      "Thailand",
+      "Vietnam"
+    ]
+  },
+  {
+    "name": "Caturra",
+    "bean_size": "AVERAGE",
+    "quality_potential": "GOOD",
+    "yield": "GOOD",
+    "disease_resistancy": [
+      {
+        "leaf_rust": "SUSCEPTIBLE"
+      },
+      {
+        "coffee_berry_disease": "SUSCEPTIBLE"
+      },
+      {
+        "nematodes": "SUSCEPTIBLE"
+      }
+    ],
+    "producing_countries": [
+      "Brazil",
+      "Colombia",
+      "Costa Rica",
+      "Honduras",
+      "Mexico",
+      "Panama",
+      "Peru"
+    ]
+  }
+]

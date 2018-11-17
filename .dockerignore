@@ -1,0 +1,9 @@
+.DS_Store
+.git
+.gitignore
+.idea
+coverage
+node_modules
+.nvmrc
+*.log
+*.iml

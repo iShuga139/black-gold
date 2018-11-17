@@ -1,0 +1,10 @@
+{
+  "server": {
+    "port": 3000
+  },
+  "tls": {
+    "enabled": false,
+    "keyPath": "/usr/src/ssl/info-nl.key",
+    "certPath": "/usr/src/ssl/info-nl.crt"
+  }
+}

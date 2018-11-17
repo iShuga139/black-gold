@@ -1,0 +1,59 @@
+{
+  "name": "black-gold",
+  "version": "0.0.0",
+  "description": "A small API to get information about that liquid black gold that most developers are completely hooked on.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "coverage": "nyc mocha",
+    "test": "mocha",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "coverage:open": "open ./coverage/lcov-report/index.html",
+    "clean:install": "rm -rf node_modules && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iShuga139/black-gold.git"
+  },
+  "keywords": [
+    "API",
+    "express",
+    "black-gold",
+    "arabica-coffee"
+  ],
+  "author": "Jonathan Estrada <jeaworks@hotmail.com>",
+  "contributors": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iShuga139/black-gold/issues"
+  },
+  "homepage": "https://github.com/iShuga139/black-gold#readme",
+  "engines": {
+    "node": "^8"
+  },
+  "devDependencies": {
+    "chai": "~4.2.0",
+    "eslint": "~5.9.0",
+    "eslint-config-standard": "~12.0.0",
+    "eslint-plugin-import": "~2.14.0",
+    "eslint-plugin-node": "~8.0.0",
+    "eslint-plugin-promise": "~4.0.1",
+    "eslint-plugin-standard": "~4.0.0",
+    "fraudster": "~1.1.0",
+    "freshy": "~1.0.4",
+    "jsdoc": "~3.5.5",
+    "mocha": "~5.2.0",
+    "nyc": "~13.1.0",
+    "sinon": "~7.1.1",
+    "supertest": "~3.3.0"
+  },
+  "dependencies": {
+    "bluebird": "~3.5.3",
+    "body-parser": "~1.18.3",
+    "cors": "~2.8.5",
+    "express": "~4.16.4",
+    "lodash.filter": "~4.6.0",
+    "winston": "~3.1.0"
+  }
+}
