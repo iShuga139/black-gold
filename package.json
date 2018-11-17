@@ -1,6 +1,6 @@
 {
   "name": "black-gold",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A small API to get information about that liquid black gold that most developers are completely hooked on.",
   "main": "server.js",
   "scripts": {
