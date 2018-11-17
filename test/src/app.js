@@ -1,5 +1,6 @@
 'use strict'
 
+const freshy = require('freshy')
 const { expect } = require('chai')
 
 let createApp
@@ -8,6 +9,10 @@ describe('Application loads successfully', () => {
   before((done) => {
     createApp = require('../../src/app')
     done()
+  })
+
+  after(() => {
+    freshy.unload('../../src/app')
   })
 
   it('should mount all routes', () => {

@@ -1,14 +1,12 @@
 'use strict'
 
 require('chai').should()
-const sinon = require('sinon')
 const freshy = require('freshy')
 const request = require('supertest')
 const Fraudster = require('fraudster')
 
 const coffeeArabica = require('../fixtures/coffee-arabica')
 
-const sandbox = sinon.createSandbox()
 const fraudster = new Fraudster({
   warnOnUnregistered: false,
   cleanCacheOnDisable: true
@@ -32,10 +30,6 @@ describe(`GET ${apiEndpointPath}`, () => {
   after(() => {
     fraudster.disable()
     freshy.unload('../../src/app')
-  })
-
-  afterEach(() => {
-    sandbox.resetHistory()
   })
 
   context('when is a valid response', () => {
