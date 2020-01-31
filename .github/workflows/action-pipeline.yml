@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Install, Test & Coverage
 
 on:
   push:
@@ -25,3 +25,10 @@ jobs:
     - run: npm run coverage --if-present
       env:
         CI: true
+    - uses: actions/checkout@v2
+    - name: Publish to Registry
+      uses: elgohr/Publish-Docker-Github-Action@master
+      with:
+        name: ishuga139/black-gold
+        username: ${{ secrets.DOCKER__HUB_USER }}
+        password: ${{ secrets.DOCKER_HUB_PASSWORD }}
